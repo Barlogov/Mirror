@@ -6,6 +6,8 @@ using Mirror;
 public class AutoHostClint : MonoBehaviour
 {
     [SerializeField] NetworkManager networkManager;
+    
+   
 
     public void JoinLocalHost()
     {

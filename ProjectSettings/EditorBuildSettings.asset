@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Offline.unity
     guid: f0ba5b0b258d05b499472e5b277cd109
   - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: e2bcbc882c336874b8ec13f8f1203e1a
+  - enabled: 1
     path: Assets/Scenes/Online.unity
     guid: 537befb1bf6874e4abcaa111f479a2fb
   m_configObjects: {}

@@ -8,13 +8,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UILobby.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LobbyMaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkIdentity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Person.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DotsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AutoHostClint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIPerson.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Editor/NetworkScenePostProcess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Components/InterestManagement/Match/NetworkMatch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkManagerHUD.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mirror/Runtime/Transport/SimpleWebTransport/Common/Log.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Mirror/Runtime/NetworkManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AutoHostClint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIPerson.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DotsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LobbyMaker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Person.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UILobby.cs" />
       </list>
     </option>
   </component>
@@ -51,7 +67,9 @@
       <option name="presentableId" value="Default" />
       <updated>1647339765762</updated>
       <workItem from="1647339833540" duration="1693000" />
-      <workItem from="1647346795751" duration="416000" />
+      <workItem from="1647346795751" duration="1166000" />
+      <workItem from="1649159597230" duration="5712000" />
+      <workItem from="1650363105156" duration="18365000" />
     </task>
     <servers />
   </component>
@@ -59,5 +77,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1650365347761">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1650365347761" />
   </component>
 </project>

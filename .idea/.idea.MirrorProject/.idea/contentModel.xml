@@ -767,6 +767,11 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AutoHostClint.cs" t="Include" />
+          <e p="DotsManager.cs" t="Include" />
+          <e p="LobbyMaker.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
+          <e p="UILobby.cs" t="Include" />
+          <e p="UIPerson.cs" t="Include" />
         </e>
         <e p="ScriptTemplates" t="Include">
           <e p="50-Mirror__Network Manager-NewNetworkManager.cs.txt" t="Include" />
