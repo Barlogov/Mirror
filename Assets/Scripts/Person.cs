@@ -43,16 +43,17 @@ public class Person : NetworkBehaviour
         lobbyID = _lobbyID;
         if (LobbyMaker.instance.HostSession(_lobbyID, this, out personIndex))
         {
-            Debug.Log($"<color = green>Hosted Successfully</color>");
+            Debug.Log($"Hosted Successfully");
             networkMatch.matchId = _lobbyID.ToGuid();
             TargetHostLobby(true, _lobbyID, personIndex);
         }
         else
         {
-            Debug.Log($"<color = red>Hosted Unsuccessfully</color>");
+            Debug.Log($"Hosted Unsuccessfully");
             TargetHostLobby(false, _lobbyID, personIndex);
         }
     }
+    
     
     [TargetRpc]
     void TargetHostLobby (bool success, string _lobbyID, int _personIndex) {
@@ -61,7 +62,8 @@ public class Person : NetworkBehaviour
         Debug.Log($"Lobby ID: {lobbyID} == {_lobbyID}");
         UILobby.instance.HostSuccess(success, _lobbyID);
     }
-
+    
+     
     /*
      * JOIN SESSION
      */
@@ -77,13 +79,13 @@ public class Person : NetworkBehaviour
         lobbyID = _lobbyID;
         if (LobbyMaker.instance.JoinSession(_lobbyID, this, out personIndex))
         {
-            Debug.Log($"<color = green>Joined Successfully</color>");
+            Debug.Log($"Joined Successfully");
             networkMatch.matchId = _lobbyID.ToGuid();
             TargetJoinLobby(true, _lobbyID, personIndex);
         }
         else
         {
-            Debug.Log($"<color = red>Joined Unsuccessfully</color>");
+            Debug.Log($"Joined Unsuccessfully");
             TargetJoinLobby(false, _lobbyID, personIndex);
         }
     }
@@ -109,7 +111,7 @@ public class Person : NetworkBehaviour
     void CmdBeginSession()
     {
         LobbyMaker.instance.BeginSession(lobbyID);
-        Debug.Log($"<color = red>Session started</color>");
+        Debug.Log($"Session started");
         
     }
 
